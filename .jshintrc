@@ -5,13 +5,11 @@
 
 
   // == Enforcing Options ===============================================
-  //
-  // These options tell JSHint to be more strict towards your code. Use
-  // them if you want to allow only a safe subset of JavaScript, very
+  // This is a stupid meaningless addition
   // useful when your codebase is shared with a big number of developers
   // with different skill levels.
 
-  "bitwise"       : true,     // Prohibit bitwise operators (&, |, ^, etc.).
+  "bitwise"       : false,     // Prohibit bitwise operators (&, |, ^, etc.).
   "curly"         : true,     // Require {} for every new block or scope.
   "eqeqeq"        : true,     // Require triple equals i.e. `===`.
   "forin"         : false,     // Tolerate `for in` loops without `hasOwnPrototype`.
@@ -47,7 +45,7 @@
   "globalstrict"  : true,    // Allow global "use strict" (also enables 'strict').
   "iterator"      : false,    // Allow usage of __iterator__ property.
   "lastsemic"     : false,    // Tolerate missing semicolons when the it is omitted for the last statement in a one-line block.
-  "laxbreak"      : false,    // Tolerate unsafe line breaks e.g. `return [\n] x` without semicolons.
+  "laxbreak"      : true,    // Tolerate unsafe line breaks e.g. `return [\n] x` without semicolons.
   "laxcomma"      : false,    // Suppress warnings about comma-first coding style.
   "loopfunc"      : false,    // Allow functions to be defined within loops.
   "multistr"      : false,    // Tolerate multi-line strings.
